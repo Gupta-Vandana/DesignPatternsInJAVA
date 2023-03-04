@@ -9,6 +9,10 @@ public class Main {
 
         executorService.execute(() -> DataBase.getDataBaseInstance());
         executorService.execute(() -> DataBase.getDataBaseInstance());
+        executorService.execute(() -> DataBase.getDataBaseInstance());
+        executorService.execute(() -> DataBase.getDataBaseInstance());
+        executorService.execute(() -> DataBase.getDataBaseInstance());
+        executorService.execute(() -> DataBase.getDataBaseInstance());
 //        testing code for singleton pattern but this is not thread safe
 //        DataBase dataBase1 = DataBase.getDataBaseInstance();
 //        DataBase dataBase2 = DataBase.getDataBaseInstance();
